@@ -18,7 +18,7 @@ Building scalable web applications with React, TypeScript, Node.js, and explorin
 - 💼 Open to: **Remote Full-Stack & Frontend opportunities**
 - 📍 Location: **Lagos, Nigeria** 🇳🇬
 - 🎯 2025 Goal: **Contribute to open source Rust projects**
-- ⚡ Fun fact: **Transitioned from Biochemistry to Software Engineering!**
+- ⚡ Fun fact: **I can turn coffee into code, and bugs into features!**
 
 ---
 
