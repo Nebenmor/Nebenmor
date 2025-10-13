@@ -96,26 +96,6 @@ Building scalable web applications with React, TypeScript, Node.js, and explorin
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Anthony's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nebenmor&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1f242d&title_color=0ef&icon_color=0ef&text_color=fff)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nebenmor&layout=compact&theme=tokyonight&hide_border=true&bg_color=1f242d&title_color=0ef&text_color=fff)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Nebenmor&theme=tokyonight&hide_border=true&background=1f242d&ring=0ef&fire=0ef&currStreakLabel=0ef)
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Nebenmor&theme=tokyo-night&hide_border=true&bg_color=1f242d&color=0ef&line=0ef&point=fff)
-
----
-
 ## 🏆 Achievements & Impact
 
 - ✅ **30% reduction** in development time through reusable components
