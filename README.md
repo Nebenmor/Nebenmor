@@ -132,6 +132,6 @@ const anthony = {
   askMeAbout: ["React", "React Native", "Node.js", "FastAPI", "Real-time apps", "Fintech systems"],
   funFact: "I debug faster with coffee ☕",
   openToWork: true,
-  lookingFor: "Remote Full-Stack, Frontend & Mobile opportunities"
+  lookingFor: "Remote Full-Stack, Frontend, backend & Mobile opportunities"
 };
 ```
