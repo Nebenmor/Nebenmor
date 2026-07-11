@@ -162,18 +162,6 @@ const anthony = {
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Anthony's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nebenmor&show_icons=true&theme=dark&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nebenmor&layout=compact&theme=dark&hide_border=true)
-
-</div>
-
----
-
 ## 📬 Let's Connect
 
 I'm open to backend engineering roles, full-stack opportunities, and remote contracts.
