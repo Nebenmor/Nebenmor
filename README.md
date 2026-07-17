@@ -139,8 +139,8 @@ Building production-grade backend systems, real-time platforms, and fintech infr
 ```javascript
 const anthony = {
   currentlyBuilding: [
-    "JobSense — AI CV analyzer (Groq API + FastAPI)",
-    "React Native fintech mobile app"
+  "React Native fintech mobile app",
+  "n8n AI automation workflows"
 ],
   currentlyLearning: [
     "React Native advanced patterns",
