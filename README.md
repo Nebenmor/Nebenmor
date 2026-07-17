@@ -9,7 +9,7 @@
 
 </div>
 
-## 🚀 Backend Engineer | Node.js · Python/FastAPI · PostgreSQL | Fintech & SaaS Systems
+## 🚀 Backend Engineer | Full-Stack | React · Node.js · Python/FastAPI · PostgreSQL | Fintech & SaaS Systems
 
 Building production-grade backend systems, real-time platforms, and fintech infrastructure. 3 years of experience shipping systems that handle real-world complexity — payments, multi-tenancy, webhooks, async processing, and live data.
 
