@@ -13,7 +13,7 @@
 
 Building production-grade backend systems, real-time platforms, and fintech infrastructure. 3 years of experience shipping systems that handle real-world complexity — payments, multi-tenancy, webhooks, async processing, and live data.
 
-- 🔭 Currently building: **JobSense** — AI-powered CV analysis tool using Claude API (Anthropic)
+- 🔭 Currently building: **n8n AI automation workflows**
 - 🌱 Learning: **React Native (mobile development)** · **n8n AI automation workflows**
 - 🎯 Long-term: **DevOps/Cloud engineering (Kubernetes, AWS)** — KCNA certification planned
 - 💼 Open to: **Backend Engineer, Full-Stack, and Remote opportunities**
@@ -57,7 +57,7 @@ Building production-grade backend systems, real-time platforms, and fintech infr
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
 ### **AI & Automation**
-![Claude](https://img.shields.io/badge/Claude_API-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_API-F55036?style=for-the-badge&logo=groq&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
 ### **Testing**
@@ -99,15 +99,22 @@ Building production-grade backend systems, real-time platforms, and fintech infr
 
 ---
 
-### [JobSense — AI-Powered CV Analysis Tool](https://github.com/Nebenmor/jobsense) *(In Progress)*
-**CV-to-job-description fit analyzer using Groq API** 🤖
+### [JobSense — AI-Powered CV Analysis (RAG)](https://github.com/Nebenmor/jobsense)
+**Production RAG application for CV-to-job fit analysis** 🤖
 
-- FastAPI backend + Groq API with structured LLM JSON output extraction
-- PDF text extraction with content validation and clean error handling
-- Returns match score, matching skills, missing keywords, and actionable improvement suggestions
-- Data minimization: no raw CV storage, analysis-only persistence with auto-expiry
+- RAG pipeline: keyword retrieval over 25 career-advice snippets →
+  prompt augmentation → Groq (Llama 3.3 70B) → structured JSON output
+- Pydantic v2 schema enforcement with retry on LLM parse failure
+- Async FastAPI backend, asyncpg + SQLAlchemy, Alembic migrations
+  auto-applied on deploy
+- React 18 frontend with animated SVG score ring, PDF upload,
+  TypeScript, custom CSS (no component library)
+- CV processed in-memory only — never persisted (data minimization)
+- 🔗 [Live App](https://jobsense-nine.vercel.app) |
+  [API Docs](https://jobsense-lvrs.onrender.com/docs)
 
-**Tech:** `FastAPI` `Python` `Groq API` `PostgreSQL` `React` `TypeScript`
+**Tech:** `FastAPI` `Python` `Groq API` `Llama 3.3 70B` `RAG`
+`PostgreSQL` `React 18` `TypeScript` `Pydantic v2` `Vercel` `Render`
 
 ---
 
@@ -127,6 +134,7 @@ Building production-grade backend systems, real-time platforms, and fintech infr
 
 - ✅ **Flowspace:** Production full-stack SaaS — async PostgreSQL, Celery workers, Redis, exponential backoff webhooks, 35 tests
 - ✅ **PayRoute:** Fintech-grade payment processor — double-entry bookkeeping, idempotency, HMAC verification, zero double-crediting
+- ✅ **JobSense:** Production RAG application — Groq API (Llama 3.3 70B), keyword retrieval, structured LLM output extraction, async   PostgreSQL, deployed live with Swagger API docs
 - ✅ **80% of backend** architecture for enterprise property management system — sub-200ms response times
 - ✅ **40% performance improvement** through strategic PostgreSQL indexing and query optimization
 - ✅ **95%+ test coverage** with Pytest and Jest across production backends
