@@ -14,7 +14,7 @@
 Building production-grade backend systems, real-time platforms, and fintech infrastructure. 3 years of experience shipping systems that handle real-world complexity — payments, multi-tenancy, webhooks, async processing, and live data.
 
 - 🔭 Currently building: **n8n AI automation workflows**
-- 🌱 Learning: **React Native (mobile development)** · **n8n AI automation workflows**
+- 🌱 Learning: **DevOps**
 - 🎯 Long-term: **DevOps/Cloud engineering (Kubernetes, AWS)** — KCNA certification planned
 - 💼 Open to: **Backend Engineer, Full-Stack, and Remote opportunities**
 - 📍 Location: **Lagos, Nigeria** 🇳🇬
